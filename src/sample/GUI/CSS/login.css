@@ -1,0 +1,24 @@
+#usernameLabel{
+-fx-text-fill: black;
+}
+
+#passwordLabel{
+-fx-text-fill: black;
+}
+
+AnchorPane{
+    -fx-background-color: #99ccff;
+}
+
+.button:default {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, #eaeaea;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
+.button {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, #eaeaea;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}
+
